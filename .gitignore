@@ -1,0 +1,23 @@
+
+# Private database configuration
+/db.php
+/.env
+/.env.*
+
+# Local editor files
+/.edge-preview-profile/
+.vscode/
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Database backups containing actual data
+/database/*.sql
+!/database/schema.sql
+/database/*.zip
+/database/*.gz
+
+# System files
+.DS_Store
+Thumbs.db
